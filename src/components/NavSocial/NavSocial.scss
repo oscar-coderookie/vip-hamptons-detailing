@@ -1,0 +1,22 @@
+.nav{
+
+    &__social{
+padding-bottom: 20px;
+    }
+
+  &__icons{
+    font-size: 50px;
+    color:white;
+    padding: 0px 10px 50px 10px;
+    transition: all 0.3s ease-in;
+
+    &:hover{
+        filter: drop-shadow(0px 0px 10px white) 
+    }
+    &::after{
+        filter: drop-shadow(0px 0px 10px white) 
+    }  
+}
+
+
+}

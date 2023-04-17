@@ -1,0 +1,64 @@
+.image-gallery {
+  &__container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 80px);
+    display: flex; /* Añade display: flex; para utilizar flexbox */
+    justify-content: center; /* Añade justify-content: center; para centrar horizontalmente la imagen */
+    align-items: center;
+
+    @media (max-width: 768px) {
+      width: 100vw; /* Ocupa el ancho completo de la pantalla en tablet */
+    }
+  
+    /* Breakpoint para celular (ancho máximo de 480px) */
+    @media (max-width: 480px) {
+      width: 100vw; /* Ocupa el ancho completo de la pantalla en celular */
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ajusta el tamaño del botón según tus necesidades */
+    color: #ffffff9f; /* Color del contenido del botón */
+    transition: background-color 0.3s ease-in-out;
+    z-index: 10;
+    font-size: 50px; /* Ajusta el tamaño de fuente del icono o contenido del botón */
+    transition: opacity 0.6s ease;
+    &--previous {
+      left: 0; /* Ubicación en el extremo izquierdo de la pantalla */
+    }
+
+    &--next {
+      right: 0; /* Ubicación en el extremo derecho de la pantalla */
+    }
+
+    &:hover {
+      text-shadow: 0px 0px 6px black;
+      color: white;
+    }
+
+    // ... otros estilos para los botones ...
+  }
+}
+.image-gallery__image {
+  /* Estilos de la imagen actual */
+  /* Añade cualquier estilo adicional que necesites para la imagen */
+  transition: opacity 0.5s ease-in-out; /* Transición de opacidad para el efecto de transición */
+}
