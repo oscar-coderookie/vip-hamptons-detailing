@@ -1,8 +1,9 @@
 import "./App.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Header, WhatsappBtn } from "./components";
-import ComingSoon from './pages/ComingSoon/ComingSoon';
+import {ComingSoon} from './components';
 import HomePage from './pages/HomePage/HomePage';
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       <Route exact path="/about-us" element={<ComingSoon />} />
       <Route exact path="/contact" element={<ComingSoon/>} />
       <Route exact path="/images" element={<ComingSoon />} />
+      <Route exact path="/portfolio" element={<Portfolio />} />
     </Routes>
   );
 };

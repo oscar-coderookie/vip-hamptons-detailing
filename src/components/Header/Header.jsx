@@ -19,12 +19,16 @@ const Header = () => {
     { name: "Home", url: "/" },
     { name: "Gallery", url: "/images" },
     { name: "About Us", url:"/about-us"},
+    { name: "Portfolio", url:"/portfolio"},
     { name: "Contact", url:"/contact"},
     
   ];
 
   return (
     <div className="header">
+      <div className="header__phone">
+        <p>Booking: +1(862)397-9206</p>
+      </div>
       <div className="header-block">
         <div className="header-menu">
           <Hamburger
@@ -46,15 +50,7 @@ const Header = () => {
       {open === false ? null : (
         <nav className="header-nav">
           <div className="header-nav__sections">
-            {ubication === "/" ? null : (
-              <NavLink
-                to="/"
-                className="header-nav__links"
-                onClick={() => setOpen(!open)}
-              >
-                Home
-              </NavLink>
-            )}
+           
             {menuLinks.map((links, index) => {
               return (
                 <NavLink
