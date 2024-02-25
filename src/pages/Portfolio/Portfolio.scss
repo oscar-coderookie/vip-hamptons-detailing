@@ -1,10 +1,62 @@
 .portfolio {
   &__block {
-    height: 100vh;
     width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+
+
+  }
+
+  &__boat {
+    background-image: url('https://previews.dropbox.com/p/thumb/ACPoLQJlzdAJss0Mkq9daR8FE-Gg7l5huxkClp5517s9q64OC-CO9OCNE1Nf6rnETZHwzXWaynjn_NsrRU9dPCozNH_Ozx578f5SGdxoakwYo6_N_YyC480AvKqB5qKYh-EWvutVBRPrmvPIYnT09baSdPJs-dqVw4fkgDQBJHIC0i33iMHLw3QNLDMIZ5cTtDMhLBeDpxU0_RtncVrsaWyvj69KdXLCjFi1du2jJ4iZmm1gEP_fCABZi0qtjggaLZzSs2DNbYUMRCdZje1aKkmVnAW4W18yXwfDvM1ospAu9RHhsTUUaeiqTkDxMp5-lNJdApYJpJDFg2wLe2SF51uG/p.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(135deg, #fdeb71 10%, #f8d800 100%);
+
+    transition: 0.4s ease all;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+
+  &__car {
+    background-image: url('https://previews.dropbox.com/p/thumb/ACPRJ7W9BdAZXEVeVrNmAvtqGEnsBsC45A-MThXqfc-PUPm1N_Bd09eT3Yrd4ToYpHg6hlrXP9ECFLBdTR5mZhk5IwGYnwUY4GhQ3Q9-hUDPGjDVZYAPHJkHrQeWkNyPYBdSVy5fH898_ZrQsDv2jH9jsgsC6tsbogdtJUTJu8ypBZ1EhSmCbvXWxxS6oLLsxJCP9cVvBHyinv4UYGVfH6VJFtxLFozRuALYH9e9L_WJaEoXDndG8v6Jcxwc0wP1hP0XX0eSyUgxZmeRiJ3Ox_V08zYyrHuE1FGZJH59-qm6XjAFd09SSPneHQnfic74206sN7BO47w8yGHjopLSKN2B/p.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease all;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  @media (max-width:675px) {
+    &__boat {
+      background-image: url('https://previews.dropbox.com/p/thumb/ACPOcwNv9LNnNTl0pRx6Q73lB1jQUoeFTw3lOoI2j3ikCCqxRkmtgdvdeUF1-_rDOtubS2TlU2fYbUz1RY-ASAZp1ZNaTfVI_B5qWQ9DCNL_bClY6OPxSMdGsOO83L1xzGd2gLHTWlu1Igp6H5vUIETaEDzBeHbXF2svfH5sRG3fSebkIN1v0-cMbdclB7lbWsFUyfwMWMMGT7Nh2j0WKvS-cEOwPKUkoxZmuaBdvAKXWdf0f6GwL5L5JiBTuQ10Z2KBH9YTwpyWqbDRbus3pZ4aJFwm6Efn9IVSjU-Xo2kMZuslNewG0dV3sgZYGAmDndSUXMYc6QOQGITry_trBmlD/p.jpeg')
+    }
+    &__car{
+      background-image: url('https://previews.dropbox.com/p/thumb/ACPTRR0_uPJXe2L0UA1wKFMgGi7157IKaLDWHr6WQ2q3lNw11MDm4-u0Ht6M9ebvUT8NtX3ToiS1m5Vw6UCPOZvOyDzGudQhJLikFF0nOzFThIS4-2iTovPq9iyH7NYSX6hHjRq-fGtQ7ux9zSki1tf77fxJo4EdVkO--YkpJFZ5QO9VMfI5a8vLXRX9XjJB2HW-wdpOjBNjlMK-jWwLQgr9I5VcTcZG4XjaOnDTIh67UVmhI4OwPUXRSEQ9F6eiecE_M3ecRxKsjmyJXw2d8b8L6ohvbrH0Fz_g6rxO8tkfy4GjKiZRJjWPFGg21vlZl1f9WMoc4ldVCNYD7X2pAQoP/p.jpeg');
+    }
   }
 }
