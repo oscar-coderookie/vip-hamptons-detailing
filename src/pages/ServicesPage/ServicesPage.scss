@@ -1,0 +1,45 @@
+.services-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        225deg,
+        rgba(175, 175, 175, 1) 0%,
+        rgba(215, 215, 215, 1) 10%,
+        rgba(254, 254, 254, 1) 24%,
+        rgba(204, 204, 204, 1) 39%,
+        rgba(170, 170, 170, 1) 51%,
+        rgba(226, 226, 226, 1) 66%,
+        rgba(255, 255, 255, 1) 79%,
+        rgba(205, 205, 205, 1) 91%,
+        rgba(170, 170, 170, 1) 100%
+      );
+
+    &__title{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+    &__block{
+        max-width: 1200px;
+    }
+    &__description{
+
+    }
+    &__list{
+        list-style: disc;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding:0;
+;
+    }
+    &__element{
+        text-decoration: none;
+
+
+    }
+}

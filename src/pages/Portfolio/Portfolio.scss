@@ -12,11 +12,12 @@
   }
 
   &__boat {
-    background-image: url('https://previews.dropbox.com/p/thumb/ACPoLQJlzdAJss0Mkq9daR8FE-Gg7l5huxkClp5517s9q64OC-CO9OCNE1Nf6rnETZHwzXWaynjn_NsrRU9dPCozNH_Ozx578f5SGdxoakwYo6_N_YyC480AvKqB5qKYh-EWvutVBRPrmvPIYnT09baSdPJs-dqVw4fkgDQBJHIC0i33iMHLw3QNLDMIZ5cTtDMhLBeDpxU0_RtncVrsaWyvj69KdXLCjFi1du2jJ4iZmm1gEP_fCABZi0qtjggaLZzSs2DNbYUMRCdZje1aKkmVnAW4W18yXwfDvM1ospAu9RHhsTUUaeiqTkDxMp5-lNJdApYJpJDFg2wLe2SF51uG/p.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fboats-desktop.jpg?alt=media&token=4bbdc032-dd3d-47c4-acfb-e96a7d34a291');
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
+    opacity: 0.25;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +29,13 @@
   }
 
   &__car {
-    background-image: url('https://previews.dropbox.com/p/thumb/ACPRJ7W9BdAZXEVeVrNmAvtqGEnsBsC45A-MThXqfc-PUPm1N_Bd09eT3Yrd4ToYpHg6hlrXP9ECFLBdTR5mZhk5IwGYnwUY4GhQ3Q9-hUDPGjDVZYAPHJkHrQeWkNyPYBdSVy5fH898_ZrQsDv2jH9jsgsC6tsbogdtJUTJu8ypBZ1EhSmCbvXWxxS6oLLsxJCP9cVvBHyinv4UYGVfH6VJFtxLFozRuALYH9e9L_WJaEoXDndG8v6Jcxwc0wP1hP0XX0eSyUgxZmeRiJ3Ox_V08zYyrHuE1FGZJH59-qm6XjAFd09SSPneHQnfic74206sN7BO47w8yGHjopLSKN2B/p.jpeg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgalleryhome-2.jpg?alt=media&token=ed2ea9bc-28dd-40da-950e-7ade59537236');
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
     display: flex;
+    opacity: 0.35;
     align-items: center;
     justify-content: center;
     transition: 0.4s ease all;

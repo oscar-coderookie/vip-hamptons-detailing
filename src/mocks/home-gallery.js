@@ -1,11 +1,11 @@
 const homeImages = [
-  {original: "https://previews.dropbox.com/p/thumb/ACMtYA5Sld5kRnQs-OQYhawQFd0qYvDddBCWseaQm1NxfYgUBcSXh2Nv1D-E28-T4Z-PvxkLqhYqD6VMVQGoG7oR52ll9xfo18xzKfurIsGd5RkTwRaLt8FvuHtoQAxmaWH_fPR1zWekYJlIrj_E8R1oeI3dy9BlnXVbCH1J4FFRaD7aH8VRFZGzUQaBs3--xZ1HzLry0thwOO8hb1Erqc8nahATZnlqkvTeTdpcositZ70k4SanHwgaC8ULOqZcmTlbhMysgu4Uv6LvD1vRCltwQK6d-JmKJ5BF9wXhPQOCvNgy-a4sstbIAp1B8fC2Jfe7nZXfEXSIEybpm5SzTCbA/p.jpeg"},
-  {original: "https://previews.dropbox.com/p/thumb/ACPoLQJlzdAJss0Mkq9daR8FE-Gg7l5huxkClp5517s9q64OC-CO9OCNE1Nf6rnETZHwzXWaynjn_NsrRU9dPCozNH_Ozx578f5SGdxoakwYo6_N_YyC480AvKqB5qKYh-EWvutVBRPrmvPIYnT09baSdPJs-dqVw4fkgDQBJHIC0i33iMHLw3QNLDMIZ5cTtDMhLBeDpxU0_RtncVrsaWyvj69KdXLCjFi1du2jJ4iZmm1gEP_fCABZi0qtjggaLZzSs2DNbYUMRCdZje1aKkmVnAW4W18yXwfDvM1ospAu9RHhsTUUaeiqTkDxMp5-lNJdApYJpJDFg2wLe2SF51uG/p.jpeg"},
-  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/homepage%2Fslide-1%2F20190526_084047.jpg?alt=media&token=b4210c92-3ee2-452d-9607-c2951e809975"},
+  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia.jpg?alt=media&token=3570eb17-46ac-497b-9d4f-a1e6c9ee2107"},
+  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%203.jpg?alt=media&token=62c1ca59-64e0-4d0e-99e3-a41f90764cf1"},
+  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro%20copia%204.jpg?alt=media&token=467c1022-1a39-4e67-bf1b-54d418220ea7"},
   {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/homepage%2Fslide-1%2F20190526_083912.jpg?alt=media&token=adf941fd-9c02-4222-b2db-8c649db046bc"},
- {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/homepage%2Fslide-1%2F20190502_160830.jpg?alt=media&token=edee4441-f46e-4108-b9a8-f79a208f628b"},
-  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/homepage%2Fslide-1%2F20180710_080750.jpg?alt=media&token=a574fc23-04ae-4d9f-96cc-594cec4df56f"},
-  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/homepage%2Fslide-1%2F20180603_164332.jpg?alt=media&token=400f7bba-0805-461e-9ae8-877158baf979"},
+ {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%206.jpg?alt=media&token=3ba09032-7016-4787-b92d-37dd8fae31c3"},
+  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%209.jpg?alt=media&token=78c4c48b-6b8c-45f0-b23a-8561ffbbca84"},
+  {original: "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro%20copia.jpg?alt=media&token=57856f0f-94c8-448a-a823-d05ff3cf502a"},
 ];
 
 const servicesGallery = [

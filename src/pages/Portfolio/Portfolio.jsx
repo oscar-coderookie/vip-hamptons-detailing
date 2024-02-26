@@ -14,7 +14,7 @@ const Portfolio = () => {
         </NavLink>
       </div>
       <div className="portfolio__car">
-        <NavLink to="/portfolio/boats" className="portfolio__link">
+        <NavLink to="/portfolio/cars" className="portfolio__link">
           <h2 className="portfolio__subtitle">Car Detailing:</h2>
         </NavLink>
       </div>
