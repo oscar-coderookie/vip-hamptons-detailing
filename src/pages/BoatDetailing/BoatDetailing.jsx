@@ -21,6 +21,7 @@ const BoatDetailing = () => {
         items={boatImages}
         showThumbnails={false}
         slideDuration={600}
+        autoPlay={true}
         renderItem={renderImage} />
 
     </div>

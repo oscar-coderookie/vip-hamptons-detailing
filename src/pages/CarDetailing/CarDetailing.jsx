@@ -18,6 +18,7 @@ const CarDetailing = () => {
        <ImageGallery
         width="100%"
         showNav={false}
+        autoPlay={true}
         items={carsImages}
         showThumbnails={false}
         renderItem={renderImage} />   

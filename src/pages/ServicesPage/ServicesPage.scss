@@ -1,45 +1,78 @@
-.services-page{
+.services-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  padding-top: 130px;
+
+  &__text{
+    width: 80%;
+  }
+  &__title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+  }
+  &__block1 {
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    background:url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia.jpg?alt=media&token=3570eb17-46ac-497b-9d4f-a1e6c9ee2107');
+    background-position: center;
+    background-size: cover;
+  }
+  &__description {
+    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding: 0;
+    max-width: 1000px;
+  }
+  &__element {
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
     background: linear-gradient(
-        225deg,
-        rgba(175, 175, 175, 1) 0%,
-        rgba(215, 215, 215, 1) 10%,
-        rgba(254, 254, 254, 1) 24%,
-        rgba(204, 204, 204, 1) 39%,
-        rgba(170, 170, 170, 1) 51%,
-        rgba(226, 226, 226, 1) 66%,
-        rgba(255, 255, 255, 1) 79%,
-        rgba(205, 205, 205, 1) 91%,
-        rgba(170, 170, 170, 1) 100%
-      );
+      225deg,
+      rgba(175, 175, 175, 0.75) ,
+      rgba(248, 248, 248, 0.75),
+      rgba(175, 175, 175, 0.75) ,
+    );
+    border: 1px solid rgb(182, 182, 182);
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    text-transform: uppercase;
+  }
 
-    &__title{
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 400;
-    }
-    &__block{
-        max-width: 1200px;
-    }
-    &__description{
-
-    }
-    &__list{
-        list-style: disc;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        padding:0;
-;
-    }
-    &__element{
-        text-decoration: none;
-
-
-    }
+  &__block2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%206.jpg?alt=media&token=3ba09032-7016-4787-b92d-37dd8fae31c3');
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    filter: drop-shadow(2px 2px 6px black);
+  }
 }

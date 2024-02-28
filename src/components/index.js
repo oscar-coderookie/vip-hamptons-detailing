@@ -3,6 +3,8 @@ import WhatsappBtn from "./WhatsappBtn/WhatsappBtn";
 import WspGallery from "./WspGallery/WspGallery";
 import SwiperGallery from "./SwiperSlide/SwiperGallery";
 import FadeGallery from "./FadeGallery/FadeGallery";
+import PageBlock
+ from "./PageBlock/PageBlock";
 
 import ComingSoon from "./ComingSoon/ComingSoon";
 
@@ -12,6 +14,7 @@ export{
     WspGallery,
     SwiperGallery,
     FadeGallery,
-    ComingSoon
+    ComingSoon,
+    PageBlock
 
 }
