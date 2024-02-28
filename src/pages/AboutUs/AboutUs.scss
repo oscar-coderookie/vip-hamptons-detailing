@@ -4,8 +4,8 @@
   flex-direction: column;
   align-items: center;
   padding-top: 117px;
- 
-  &__mission{
+
+  &__mission {
     width: 40%;
     height: 50vh;
     border-radius: 10px;
@@ -16,16 +16,16 @@
     align-items: center;
     justify-content: center;
 
-    &:hover{
-      background: url('https://dercocenter-api.s3.us-east-1.amazonaws.com/images/contents/2021-08-25-car-detailing.jpg');
+    &:hover {
+      background: url("https://dercocenter-api.s3.us-east-1.amazonaws.com/images/contents/2021-08-25-car-detailing.jpg");
       background-size: cover;
       color: white;
     }
   }
-  &__description{
+  &__description {
     width: 80%;
   }
-  &__vision{
+  &__vision {
     width: 40%;
     height: 50vh;
     border-radius: 10px;
@@ -35,46 +35,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    &:hover{
-      background: url('https://hmcarandboatdetailing.com/wp-content/uploads/2020/03/HM-Car-and-Boat-Detailing.jpg');
+    &:hover {
+      background: url("https://hmcarandboatdetailing.com/wp-content/uploads/2020/03/HM-Car-and-Boat-Detailing.jpg");
       background-size: cover;
       color: white;
     }
   }
-  &__subtitle{
+  &__subtitle {
     font-size: 36px;
     text-transform: uppercase;
   }
 
-  &__block2{
+  &__block2 {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
   }
   @media (max-width: 675px) {
     padding-top: 150px;
     height: auto;
-    &__block2{
+    &__block2 {
       height: auto;
     }
-   
   }
-&__block1{
-height: 100vh;
-display: flex;
-padding: 0px 10px 0px 10px;
-align-items: center;
-justify-content: center;
+  &__block1 {
+    height: 100vh;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    justify-content: center;
 
-
-@media (max-width: 675px) {
-  height: auto;
-}
-}
+    @media (max-width: 675px) {
+      height: auto;
+    }
+  }
   &__block {
     display: flex;
     width: 100%;
@@ -84,14 +81,15 @@ justify-content: center;
     flex-wrap: wrap;
     background: linear-gradient(135deg, #520000, #8b0000, #520000);
 
-    @media (max-width: 675px) {
-        border-radius: 30px;
+    @media (max-width: 1056px) {
+      border-radius: 10px;
+      height: auto;
     }
-
   }
   &__image {
-    max-width: 400px;
-    border-radius: 40px;
+    max-width: 350px;
+    min-width: 500px;
+    border-radius: 20px;
     filter: drop-shadow(0px 0px 8px rgb(14, 14, 14));
   }
   &__info {
@@ -126,6 +124,17 @@ justify-content: center;
       text-shadow: 2px 2px 6px rgb(121, 121, 121);
       letter-spacing: 2px;
       font-size: 40px;
+    }
+  }
+
+  @media (max-width:1056px) {
+    padding-top: 120px;
+    &__subtitle{
+      font-size: 24px;
+    }
+    &__text{
+      margin-left: 0;
+      width: 90%;
     }
   }
 }

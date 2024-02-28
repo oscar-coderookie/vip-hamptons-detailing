@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
 const NavSocial = () => {
   return (
     <div className="nav__social">
+      <p>Booking:</p>
       <a
         href="https://m.facebook.com/people/Hamptons-Vip-Car-Boat-Detailing/100063706893887/"
         target="_blank"
