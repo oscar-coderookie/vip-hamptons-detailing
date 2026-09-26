@@ -13,7 +13,7 @@ const ServicesPage = () => {
           <li className="services-page__element">Ceramic coating </li>
           <li className="services-page__element">Gelcoat correction</li>
           <li className="services-page__element">Boat interior detailing</li>
-          <li className="services-page__element">Teak cleak </li>
+          <li className="services-page__element">Teak clean </li>
           <li className="services-page__element">
             Windows water spot remover{" "}
           </li>

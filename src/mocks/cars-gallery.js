@@ -1,6 +1,66 @@
 const carsImages = [
   {
     original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20241111_145557.jpg?alt=media&token=598f4a6f-aeac-4531-9409-121f0da998ad",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20241111_145557.jpg?alt=media&token=598f4a6f-aeac-4531-9409-121f0da998ad1",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20250826_120252.jpg?alt=media&token=9c2bea7a-02f5-4f59-9ac5-74367ad179f9",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20250826_120252.jpg?alt=media&token=9c2bea7a-02f5-4f59-9ac5-74367ad179f9",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093625.jpg?alt=media&token=749ce6aa-81de-4ac5-84e2-35660d356a34",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093625.jpg?alt=media&token=749ce6aa-81de-4ac5-84e2-35660d356a34",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093642.jpg?alt=media&token=6daa1633-a21f-4f11-80c4-c45d596cce30",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093642.jpg?alt=media&token=6daa1633-a21f-4f11-80c4-c45d596cce30",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093727.jpg?alt=media&token=79abd660-9f5e-4d69-a8d0-999eb7859c9d",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093727.jpg?alt=media&token=79abd660-9f5e-4d69-a8d0-999eb7859c9d",
+  },
+  {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093820.jpg?alt=media&token=eb0f5330-e3e7-4758-90c5-70cc72857958",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260703_093820.jpg?alt=media&token=eb0f5330-e3e7-4758-90c5-70cc72857958",
+  },
+    {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260710_105228.jpg?alt=media&token=777254dc-d46f-4ca7-a416-e2b3422f835f",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2F20260710_105228.jpg?alt=media&token=777254dc-d46f-4ca7-a416-e2b3422f835f",
+  },
+    {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20251217-WA0037.jpg?alt=media&token=91733f16-ebdd-45ac-a3b6-47e1e24973cb",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20251217-WA0037.jpg?alt=media&token=91733f16-ebdd-45ac-a3b6-47e1e24973cb",
+  },
+    {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20260801-WA0043.jpg?alt=media&token=8c767486-965f-4c76-a83b-a1cf36e18b02",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20260801-WA0043.jpg?alt=media&token=8c767486-965f-4c76-a83b-a1cf36e18b02",
+  },
+    {
+    original:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20260801-WA0051.jpg?alt=media&token=1ca48953-61ea-4956-a3af-a7ea2d6ac17e",
+    thumbnail:
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Ftanda2%2FIMG-20260801-WA0051.jpg?alt=media&token=1ca48953-61ea-4956-a3af-a7ea2d6ac17e",
+  },
+  {
+    original:
       "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcorvette1%20(1).jpg?alt=media&token=b0bcf550-cc63-4aad-b51b-60528a51333a",
     thumbnail:
       "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcorvette1%20(1).jpg?alt=media&token=b0bcf550-cc63-4aad-b51b-60528a51333a",
@@ -143,7 +203,7 @@ const carsImages = [
       "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%209.jpg?alt=media&token=78c4c48b-6b8c-45f0-b23a-8561ffbbca84",
     thumbnail:
       "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%209.jpg?alt=media&token=78c4c48b-6b8c-45f0-b23a-8561ffbbca84",
-  },
+  }
 ];
 
-export {carsImages}
+export { carsImages }

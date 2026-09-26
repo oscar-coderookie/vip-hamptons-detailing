@@ -1,15 +1,15 @@
 const boatImages = [
   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2Fboat%201.jpg?alt=media&token=73e7fe3b-d2ac-4a6a-9fd4-b7da62c8d03c",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2FIMG-20260731-WA0030.jpg?alt=media&token=582bee23-e3c6-4ed6-946f-930c95793382",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2Fboat%201.jpg?alt=media&token=73e7fe3b-d2ac-4a6a-9fd4-b7da62c8d03c",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2FIMG-20260731-WA0030.jpg?alt=media&token=582bee23-e3c6-4ed6-946f-930c95793382",
   },
   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia.jpg?alt=media&token=3570eb17-46ac-497b-9d4f-a1e6c9ee2107",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2F20260701_190157.jpg?alt=media&token=2c6ae112-4f84-4d4b-b2e6-e551db9dd28e",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia.jpg?alt=media&token=3570eb17-46ac-497b-9d4f-a1e6c9ee2107",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2F20260701_190157.jpg?alt=media&token=2c6ae112-4f84-4d4b-b2e6-e551db9dd28e",
   },
   {
     original:
@@ -25,9 +25,9 @@ const boatImages = [
   },
   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%205-1.jpg?alt=media&token=343e8b16-ef10-4c76-9a20-5397d22c420a",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Fbotes%20(1).jpg?alt=media&token=cd475562-cb44-4a2f-85fd-5e560c7897f9",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%205-1.jpg?alt=media&token=343e8b16-ef10-4c76-9a20-5397d22c420a",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Fbotes%20(1).jpg?alt=media&token=cd475562-cb44-4a2f-85fd-5e560c7897f9",
   },
   {
     original:
@@ -49,9 +49,9 @@ const boatImages = [
   },
   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%203.jpg?alt=media&token=62c1ca59-64e0-4d0e-99e3-a41f90764cf1",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2FScanned_20260925-1548-07.jpg?alt=media&token=a3bffff3-ab04-43bd-872a-9ba5468e3066",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%203.jpg?alt=media&token=62c1ca59-64e0-4d0e-99e3-a41f90764cf1",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2FScanned_20260925-1548-07.jpg?alt=media&token=a3bffff3-ab04-43bd-872a-9ba5468e3066",
   },
   {
     original:
@@ -65,12 +65,13 @@ const boatImages = [
     thumbnail:
       "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%203-1.jpg?alt=media&token=15a9ad31-1671-47b0-982d-8f07326c351c",
   },
-  {
+   {
     original:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%202.jpg?alt=media&token=71670a2f-b010-4ec7-8c29-5a62930f71dc",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Ffoto1.jpg?alt=media&token=00285d54-9e80-456c-8b96-725713c67d09",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Fgaleria%2FMesa%20de%20trabajo%201%20copia%202.jpg?alt=media&token=71670a2f-b010-4ec7-8c29-5a62930f71dc",
+      "https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Ffoto1.jpg?alt=media&token=00285d54-9e80-456c-8b96-725713c67d09",
   },
+
 ];
 
 export { boatImages };
