@@ -6,15 +6,16 @@
   height: auto;
   padding-top: 130px;
 
-  &__text{
+  &__text {
     width: 80%;
   }
+
   &__title {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
-
   }
+
   &__block1 {
     width: 100%;
     height: 100vh;
@@ -22,10 +23,11 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    background:url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Fbotes%20(2).jpg?alt=media&token=40b93c68-3278-4302-bdc7-58dec79bdc5b');
+    background: url("https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/boats%2Ftanda%201%2Fbotes%20(2).jpg?alt=media&token=40b93c68-3278-4302-bdc7-58dec79bdc5b");
     background-position: center;
     background-size: cover;
   }
+
   &__description {
     max-width: 1200px;
     width: 90%;
@@ -33,6 +35,7 @@
     justify-content: center;
     align-items: center;
   }
+
   &__list {
     list-style: none;
     display: flex;
@@ -43,33 +46,92 @@
     padding: 0;
     max-width: 1000px;
   }
+
   &__element {
-    text-decoration: none;
     margin: 10px;
+  }
+
+  &__element {
+  margin: 10px;
+
+  a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    text-decoration: none;
     border-radius: 10px;
     padding: 20px;
+
     background: linear-gradient(
       225deg,
-      rgba(175, 175, 175, 0.75) ,
+      rgba(175, 175, 175, 0.75),
       rgba(248, 248, 248, 0.75),
-      rgba(175, 175, 175, 0.75) ,
+      rgba(175, 175, 175, 0.75)
     );
+
     border: 1px solid rgb(182, 182, 182);
+
     font-weight: 500;
     color: rgb(39, 39, 39);
     text-transform: uppercase;
-  }
 
-  &__block2{
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease,
+      border-color 0.25s ease;
+
+    // Brillo
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -120%;
+      width: 70%;
+      height: 100%;
+
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+      );
+
+      transform: skewX(-20deg);
+      transition: left 0.5s ease;
+    }
+
+    &:hover {
+      transform: translateY(-4px) scale(1.02);
+
+      border-color: rgba(255, 255, 255, 0.9);
+
+      box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.35),
+        0 0 15px rgba(255, 255, 255, 0.15);
+    }
+
+    &:hover::before {
+      left: 140%;
+    }
+  }
+}
+
+  &__block2 {
     height: 100vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    background: url('https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%206.jpg?alt=media&token=3ba09032-7016-4787-b92d-37dd8fae31c3');
+
+    background: url("https://firebasestorage.googleapis.com/v0/b/vip-hamptons-detailing.appspot.com/o/cars%2Fgaleria%2Fcarro1%20copia%206.jpg?alt=media&token=3ba09032-7016-4787-b92d-37dd8fae31c3");
+
+    background-position: center;
+    background-size: cover;
   }
-  &__subtitle{
+
+  &__subtitle {
     font-weight: 400;
     font-size: 40px;
     color: white;
